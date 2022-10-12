@@ -2,12 +2,14 @@
   "name": "weather-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://fabiofgc7.github.io/react-weather-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d ."
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d sist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
