@@ -13,7 +13,7 @@ export const WeatherApp = () => {
     
   }, []);
   useEffect(() => {
-    document.title = `Weather ${weather ?.location.name ??""}`
+    document.title = `Weather | ${weather ?.location.name ??""}`
     
   }, [weather]);
 
